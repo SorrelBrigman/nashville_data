@@ -1,0 +1,23 @@
+{
+  "name": "nashville_data",
+  "homepage": "https://github.com/SorrelBrigman/nashville_data",
+  "authors": [
+    "Sorrel Brigman <sorrel.k@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "angular-google-chart": "0.1.0"
+  }
+}
