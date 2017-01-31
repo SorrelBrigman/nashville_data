@@ -1,0 +1,23 @@
+<!-- <div class="chart" google-chart chart="chartObject"></div> -->
+
+<h2>Contact List</h2>
+
+<label>Search Contacts:</label>
+<input type="text" ng-model="searchList">
+
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Contact Type</th>
+    <th>Phone Number</th>
+    <th>Notes</th>
+  </tr>
+  <tr ng-repeat="contact in contactList | filter: searchList">
+    <td>{{contact.contact}}</td>
+    <td>{{contact.contact_type}}</td>
+    <td>{{contact.phone_number}}</td>
+    <td>{{contact.notes}}</td>
+  </tr>
+
+</table>
